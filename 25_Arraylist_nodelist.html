@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="bg-black">
+        <h1 id="title" class="heading">DOM learning on chai aur code <span style="display: none;">test text </span></h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <h2>Lorem, ipsum.</h2>
+        <input type="password">
+        <ul>
+            <li class="list-item">one</li>
+            <li class="list-item">two</li>
+            <li class="list-item">three</li>
+            <li class="list-item">Four</li>
+        </ul>
+    </div>
+</body>
+</html>
+<!-- 
+     1> document.getElementByI
+     d('title')
+    2> document.getElementById('title').id
+    3> document.getElementById('title').className
+    4> document.getElementById('title').getAttribute(' ') 1> id , 2> class
+    5>document.getElementById('title').setAttribute('class','test')  // IT always override 
+
+
+    +++++++++++ styling++++++++++
+    title.style.backGroundColor='red'
+    padding,borderRadius
+       
+
+    +++++++++++Adding Content+++++++++
+    1> innerHTML => sab kuch show kar deta , tag bi deta
+    2>TextContent=> jinki display hide hoti wo bi show kar deta
+    3>innerText => jo sirf user ko view ho
+  
+
+    ++++++++++++ Query selector++++++
+    document.querySelector('') // h1,#id,.class
+
+    ++++++++++++ nodelist and htmlcollection is not array ++++
+    templilist[0].style.color='green'=> use foreach . given by queryselectorall
+
+    +++++++++++++html collection
+    .getElementsByclassName()
+    foreach ni chalta
+
+    ++++++ for looping convert html collection to nodelist
+    Array.from(tempclasslist)
+
+
+
+
+-->
